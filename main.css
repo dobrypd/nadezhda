@@ -194,3 +194,24 @@ a:hover {
 .t-center {
   text-align: center;
 }
+
+
+.t-title {
+  padding: 50px;
+  text-align: center;
+}
+.t-article {
+  padding: 0px 50px;
+  text-align: justify;
+}
+.t-article-first:first-letter {
+    -webkit-initial-letter: 3;
+    initial-letter: 3;
+
+    color: #c69c6d;
+    margin: 1em .5em 0 0;
+}
+
+.t-article-box {
+  padding: 10px 50px;
+}
